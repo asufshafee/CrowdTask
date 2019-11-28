@@ -2,6 +2,7 @@ var express=require("express");
 var bodyparser=require('body-parser');
 var morgan=require('morgan');
 var countryRouter=require('./controller/country.js');
+var cityRouter=require('./controller/city.js');
 var authenticationRouter=require('./controller/authentication.js');
 var defaultMiddleware=require('./middleware/defaultMiddleware.js');
 var config=require('./constant/config.js');
@@ -18,6 +19,7 @@ app.get("/",function(req,res){
 });
 //Register routers
 app.use('/country',countryRouter);
+app.use('/city',cityRouter);
 app.use('/authenticate',authenticationRouter);
 //Register routers
 

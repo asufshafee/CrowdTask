@@ -1,4 +1,4 @@
-# Express js template project.
+# CrowdTask.
 ## The project is developed as a template for fast developement purpose.
 Technology stack is as follows:
 1. Express Js
