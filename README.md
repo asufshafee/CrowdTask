@@ -1,11 +1,6 @@
 # CrowdTask.
-## The project is developed as a template for fast developement purpose.
-Technology stack is as follows:
-1. Express Js
-2. Node Js
-3. Sequelize -> ORM tool
-4. Sequelize-auto -> Reverse engineering tool to generate model from database.
+## Database.
+https://github.com/asufshafee/CrowdTask/blob/master/tamplate_db.sql
 
-Important commands
-* To generate models from existing database
-    sequelize-auto -h localhost -d <database> -u <username> -x <password>
+## Demo Video.
+https://drive.google.com/file/d/1t4o7aDtsJ3xVMm6Bs0ENpBjFOnZMzFi9/view?usp=sharing
